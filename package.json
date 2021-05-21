@@ -1,0 +1,21 @@
+{
+  "name": "habittracker-api",
+  "version": "1.0.0",
+  "description": "Projeto de API para controle de habitos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "api",
+    "node",
+    "habit",
+    "tracker"
+  ],
+  "author": "Juan Mendes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
