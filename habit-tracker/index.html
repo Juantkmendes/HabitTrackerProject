@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Habit Tracker</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>HABITOS</h2>
+      <p></p>
+      <form class="adicionar-habito">
+        <input
+          class="habito"
+          type="text"
+          name="habito"
+          placeholder="Insira um hábito"
+          required
+        />
+        <input
+          type="number"
+          name="reps"
+          placeholder="Número de repetições"
+          min="1"
+          required
+        />
+        <div class="frequency">
+          <label for="timeframe">Frequência: </label>
+          <select name="timeframe" id="timeframe">
+            <option value="Diariamente">Diariamente</option>
+            <option value="Semanalmente">Semanalmente</option>
+            <option value="Mensalmente">Mensalmente</option>
+            <option value="Anualmente">Anualmente</option>
+          </select>
+        </div>
+        <input type="submit" value="+ Adicionar hábito" />
+      </form>
+
+      <ul class="habitos">
+        <li>Carregando...</li>
+      </ul>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
+
